@@ -93,6 +93,7 @@ html {
   border-radius: 5px;
   -webkit-transition: all .3s;
   transition: all .3s;
+  height: 18rem;
 }
 
 .content__info-hover {
@@ -113,6 +114,10 @@ html {
 
 .content__note-red {
   font-size: 1rem;
+}
+
+.content__note-green {
+  color: green;
 }
 
 .content__info-name {

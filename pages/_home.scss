@@ -18,6 +18,7 @@
         width: 100%;
         border-radius: 5px;
         transition: all .3s;
+        height: 18rem;
 
     }
     &__info-hover{
@@ -36,6 +37,9 @@
     }
     &__note-red{
         font-size: 1rem;
+    }
+    &__note-green{
+        color:green;
     }
     
     &__info-name{

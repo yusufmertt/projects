@@ -72,6 +72,10 @@ html {
   margin: 2em 1rem;
 }
 
+.content--mobile {
+  font-family: 'Courier New', Courier, monospace !important;
+}
+
 .content__col--mobile {
   position: relative;
 }
@@ -207,6 +211,7 @@ html {
 }
 
 .header-primary--mobile {
+  font-family: 'Courier New', Courier, monospace !important;
   text-align: center;
   font-size: 1.4rem;
 }
@@ -242,8 +247,16 @@ a.animated-button.thar-four {
   transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 }
 
+a.animated-button.thar-four--mobile {
+  background-color: #F7CA18 !important;
+}
+
+a.animated-button.thar-four--mobile:hover {
+  color: black !important;
+}
+
 a.animated-button.thar-four:hover {
-  color: white !important;
+  color: white;
   background-color: transparent;
 }
 

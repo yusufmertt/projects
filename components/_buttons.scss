@@ -1,5 +1,11 @@
 
 a.animated-button.thar-four {
+	&--mobile{
+		background-color: #F7CA18 !important;
+		&:hover{
+			color:black !important;
+		}
+	}
     padding: .5rem 1rem;
     text-decoration: none;
 	color: rgb(0, 0, 0);
@@ -11,7 +17,7 @@ a.animated-button.thar-four {
 
 }
 a.animated-button.thar-four:hover {
-	color: rgb(255, 255, 255) !important;
+	color: rgb(255, 255, 255) ;
 	background-color: transparent;
 	
 }

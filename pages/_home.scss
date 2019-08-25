@@ -1,4 +1,7 @@
 .content{
+    &--mobile{
+        font-family: 'Courier New', Courier, monospace !important
+    }
     margin: 2em 1rem;
     &__col--mobile{
         position: relative;
@@ -112,6 +115,7 @@
     text-align: center;
     text-transform: uppercase;
     &--mobile{
+        font-family: 'Courier New', Courier, monospace !important;
         text-align: center;
         font-size: 1.4rem;
     }

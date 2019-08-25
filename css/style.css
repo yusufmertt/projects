@@ -72,6 +72,10 @@ html {
   margin: 2em 1rem;
 }
 
+.content__col--mobile {
+  position: relative;
+}
+
 .content__col {
   position: relative;
 }
@@ -102,6 +106,21 @@ html {
   height: 18rem;
 }
 
+.content__info--mobile {
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-transform: uppercase;
+  color: #ee0034;
+  padding: .4rem 1rem;
+  border-radius: .3rem;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  font-size: 1.1rem;
+}
+
 .content__info-hover {
   opacity: 0;
   position: absolute;
@@ -115,7 +134,7 @@ html {
   border-radius: .3rem;
   -webkit-transition: all .5s;
   transition: all .5s;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .content__note-red {
@@ -143,6 +162,23 @@ html {
   padding: .4rem 1rem;
 }
 
+.content__info-name--mobile {
+  -webkit-transition: .4s all;
+  transition: .4s all;
+  opacity: .9;
+  border-radius: .5rem;
+  text-transform: uppercase;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 3rem;
+  left: 50%;
+  font-size: 1.1rem;
+  background-color: #F7CA18;
+  color: black;
+  padding: .4rem 1rem;
+}
+
 .content__techs {
   -webkit-transition: all .4s;
   transition: all .4s;
@@ -154,6 +190,13 @@ html {
   opacity: 0;
 }
 
+.content__techs--mobile {
+  margin-top: -1rem;
+  background-color: #F7CA18;
+  text-align: center;
+  padding: 1rem 0;
+}
+
 .content__techs-header {
   margin-top: .5rem;
 }
@@ -161,6 +204,11 @@ html {
 .header-primary {
   text-align: center;
   text-transform: uppercase;
+}
+
+.header-primary--mobile {
+  text-align: center;
+  font-size: 1.4rem;
 }
 
 #contact-me {

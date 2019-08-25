@@ -58,9 +58,22 @@
 
     }
     &__note-red{
+        &--mobile{
+            background-color: #F7CA18;
+            font-size: .8rem;
+            padding: .5rem 1rem;
+            border-radius: .3rem;
+        }
         font-size: 1rem;
     }
     &__note-green{
+        &--mobile{
+            color:green;
+            background-color: #F7CA18;
+            font-size: .8rem;
+            padding: .5rem 1rem;
+            border-radius: .3rem;
+        }
         color:green;
     }
     

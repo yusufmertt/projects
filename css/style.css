@@ -145,8 +145,23 @@ html {
   font-size: 1rem;
 }
 
+.content__note-red--mobile {
+  background-color: #F7CA18;
+  font-size: .8rem;
+  padding: .5rem 1rem;
+  border-radius: .3rem;
+}
+
 .content__note-green {
   color: green;
+}
+
+.content__note-green--mobile {
+  color: green;
+  background-color: #F7CA18;
+  font-size: .8rem;
+  padding: .5rem 1rem;
+  border-radius: .3rem;
 }
 
 .content__info-name {

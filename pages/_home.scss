@@ -13,6 +13,10 @@
         &:hover .content__info-name{
             opacity: 0; 
         }
+        &:hover .content__techs{
+            opacity: 1;
+            transform: translateY(-.4rem); 
+        }
     }
     &__image{
         width: 100%;
@@ -55,6 +59,18 @@
         background-color:#F7CA18;
         color: rgb(0, 0, 0);
         padding: .4rem 1rem;;
+    }
+    &__techs{
+        transition: all .4s;
+        background-color: #F7CA18;
+        text-align: center;
+        padding: 1rem 0;
+        transform: translateY(-6.1rem);
+        opacity: 0;
+        
+    }
+    &__techs-header{
+        margin-top: .5rem;
     }
 }
 .header-primary{

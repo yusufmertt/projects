@@ -88,6 +88,12 @@ html {
   opacity: 0;
 }
 
+.content__col:hover .content__techs {
+  opacity: 1;
+  -webkit-transform: translateY(-0.4rem);
+          transform: translateY(-0.4rem);
+}
+
 .content__image {
   width: 100%;
   border-radius: 5px;
@@ -135,6 +141,21 @@ html {
   background-color: #F7CA18;
   color: black;
   padding: .4rem 1rem;
+}
+
+.content__techs {
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  background-color: #F7CA18;
+  text-align: center;
+  padding: 1rem 0;
+  -webkit-transform: translateY(-6.1rem);
+          transform: translateY(-6.1rem);
+  opacity: 0;
+}
+
+.content__techs-header {
+  margin-top: .5rem;
 }
 
 .header-primary {

@@ -238,7 +238,12 @@ html {
   position: absolute;
   right: 6rem;
   top: 2rem;
-  font-weight: 200;
+  font-weight: 100;
+}
+
+#contact-me--mobile {
+  text-align: right;
+  margin-right: 1.5rem;
 }
 
 #contact-me-link {

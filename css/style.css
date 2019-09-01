@@ -264,13 +264,13 @@ a.animated-button.thar-four {
   cursor: pointer;
   display: block;
   position: relative;
-  border: 2px solid #F7CA18;
+  border: 2px solid #18b8f7;
   -webkit-transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
   transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 }
 
 a.animated-button.thar-four--mobile {
-  background-color: #F7CA18 !important;
+  background-color: #00ccff !important;
 }
 
 a.animated-button.thar-four--mobile:hover {

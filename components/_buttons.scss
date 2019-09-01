@@ -2,7 +2,8 @@
 a.animated-button.thar-four {
 	&--mobile{
 		background-color: rgb(0, 204, 255) !important;
-		
+		border: 2px solid rgb(24, 184, 247);
+
 		&:hover{
 			color:black !important;
 		}
@@ -13,7 +14,7 @@ a.animated-button.thar-four {
 	cursor: pointer;
 	display: block;
 	position: relative;
-	border: 2px solid rgb(24, 184, 247);
+	border: 2px solid #F7CA18;
 	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 
 }

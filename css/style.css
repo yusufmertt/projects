@@ -17,6 +17,7 @@ html {
 }
 
 .row {
+  margin-bottom: 0 !important;
   max-width: 114rem;
   margin: 0 auto;
 }

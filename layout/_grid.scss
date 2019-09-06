@@ -2,6 +2,7 @@
 @import "../abstracts/mixins";
 
 .row{
+    margin-bottom: 0 !important;
     max-width: $grid-width;         //if viewport-width<$grid-width then widht will be 100% 
     margin: 0 auto;     //trick to center block elements inside another block element
     &:not(:last-child){            //last-child hariç hepsine verilecek özellikler. Eğer bu yapılmasaydı en alttaki row'un margin-bottom'u olacaktı ve aşağıda yer kaplayacaktı.

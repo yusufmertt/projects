@@ -6,10 +6,6 @@ body {
           box-sizing: border-box;
 }
 
-html {
-  font-family: 'Montserrat', sans-serif;
-}
-
 #h4 {
   font-weight: 300 !important;
 }
@@ -34,5 +30,16 @@ a {
   .col {
     margin: .7rem 0 !important;
   }
+}
+
+.icon-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.icon {
+  margin: 1rem 0;
+  height: 3rem;
 }
 /*# sourceMappingURL=main.css.map */

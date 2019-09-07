@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+#h4{
+    font-weight: 300 !important;
+  
+}
+.button{
+    border:1px solid #2098D1 !important;
+    transition: .3s all !important;
+}
+a{
+    text-decoration: none !important;
+}
+
+@media screen and (max-width:576px){
+    .card{
+        border-bottom:3px solid #2098D1 !important;
+    }
+    .row{
+        margin: 0 0 !important;
+    }
+    
+}

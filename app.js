@@ -1,3 +1,5 @@
+//date logical problems !!!
+
 window.onload = function () {
 /*
 function calcDate(currentDate) {

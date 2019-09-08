@@ -55,6 +55,9 @@ function calcDate(currentDate) {
  
 }
 
+carCount = countUpFromTime("Sep 8, 2019");
+document.getElementById("carGallery").innerHTML = carCount + " ago";
+
 projectCount = countUpFromTime("Sep 7, 2019");
 document.getElementById("projects").innerHTML = projectCount + " ago";
 

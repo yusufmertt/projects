@@ -54,6 +54,8 @@ function calcDate(currentDate) {
     
  
 }
+hotelReactCount = countUpFromTime("Sep 11, 2019");
+document.getElementById("hotel-react").innerHTML =  hotelReactCount + " ago";
 
 carCount = countUpFromTime("Sep 8, 2019");
 document.getElementById("carGallery").innerHTML = carCount + " ago";

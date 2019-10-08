@@ -54,6 +54,9 @@ function calcDate(currentDate) {
     
  
 }
+periodicTableCount = countUpFromTime("Oct 8, 2019");
+document.getElementById("periodic-table").innerHTML =  periodicTableCount + " ago";
+
 hotelReactCount = countUpFromTime("Sep 11, 2019");
 document.getElementById("hotel-react").innerHTML =  hotelReactCount + " ago";
 
